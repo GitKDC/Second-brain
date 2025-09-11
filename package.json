@@ -1,0 +1,33 @@
+{
+  "name": "second-brain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "nd": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitKDC/Second-brain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitKDC/Second-brain/issues"
+  },
+  "homepage": "https://github.com/GitKDC/Second-brain#readme",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10"
+  }
+}
